@@ -1,0 +1,430 @@
+
+<!-- saved from url=(0158)http://rsd-jboss-dev.mot.com/cs/servlets/RSDInformationServlet?action=saveORUpdateMLSTDriverRegistration&isLogged=true&existingDriver=true&mlstFileType=RECIPE -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>Motorola Remote Software Download</title>
+   <link href="./Motorola Remote Software Download_files/main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+ 
+
+
+
+
+
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <!-- <tr class="motoblue">  -->
+   <tbody><tr>
+      <td valign="top" bgcolor="#0071C1" >
+         <div>
+            
+            <a name="top">
+	               <img src="./Motorola Remote Software Download_files/motologo-1.gif" alt="Motorola" border="0" width="226px" height="80px">
+                <!-- alt="Motorola" border="0" width="224" height="55">  -->
+              
+            </a></div>
+
+      </td>
+<td valign="top" height="110" rowspan="2" bgcolor="#0071C1">
+         <div align="right">
+         
+         
+            <img src="./Motorola Remote Software Download_files/slogo_2.gif" alt="Making things smarter and life better" width="50" height="110">
+                  <!-- alt="Making things smarter and life better" width="319" height="55"> -->
+         </div>
+      </td> 
+   </tr>
+   <tr>  	 
+         
+       <td colspan="3" height="30"  align="right" class="topnav" style="padding-right:52px;"><strong>
+         Remote Software Download
+         </strong>
+       </td>      
+   </tr>
+</tbody></table>
+
+   <table width="100%">
+      <tbody><tr>
+         <td width="25%" valign="top">
+            
+
+
+
+
+
+
+
+
+
+<script language="JavaScript">
+
+	function callReload(rptType)
+{
+
+//   var timeStamp = callForTime();
+
+var randomnumber=Math.floor(Math.random()*11111111111);
+
+
+    if(rptType == 'rpt1'){
+	window.open
+		  ('/cs/servlets/RSDPhoneModelReport?action=regionReports1&isLogged=true&random='+randomnumber,'Report1','resizable=yes' );
+	 	}
+	else if(rptType == 'rpt2')
+		{
+	  window.open
+		  ('/cs/servlets/RSDUserReport?action=regionReports2&isLogged=true&random='+randomnumber,'Report2','resizable=yes' );
+	 	    }
+	else if(rptType == 'rpt3')
+		{
+	   window.open
+		   ('/cs/servlets/RSDMASCReport?action=regionReports3&isLogged=true&random='+randomnumber,'Report3','resizable=yes' );
+	 	}
+		else if(rptType == 'rpt4')
+		{
+	   window.open
+		   ('/cs/servlets/RSDMonsterFileReport?action=regionReports4&isLogged=true&random='+randomnumber,'Report4','resizable=yes' );
+	 	}
+
+		document.location.href = '/cs/jsp/reports/initialPageReports.jsp';
+	  return false;
+    }
+</script>
+
+
+
+
+
+
+
+<table width="100%" border="0">
+   <tbody><tr valign="top">
+      <td>
+         <table width="100%" border="1" cellspacing="0" cellpadding="2">
+            <tbody><tr class="motoblue">
+               <th><font color="#FFFFFF">
+                   Options
+                   </font></th>
+            </tr>
+        
+          
+           
+                         
+			
+            
+            
+
+            
+             
+           
+
+
+
+
+            
+
+            
+
+          
+
+          
+
+           
+         
+  	
+         
+          
+                         
+	
+
+	    
+
+  		
+
+
+             
+
+            
+
+
+         
+	
+  
+
+             
+
+
+            
+
+            
+
+            
+			
+
+
+
+
+
+            
+
+            
+
+            
+
+
+
+
+	
+
+		
+
+            
+               <tr>
+                  <td class="c20">
+                  
+                     <p><img src="./Motorola Remote Software Download_files/bullet.gif" width="12" height="9">
+                        <a href="http://rsd-jboss-dev.mot.com/cs/servlets/RSDInformationServlet?action=motoserviceRegistration&amp;isLogged=true" class="c20">
+                        <small>MotoService Client Registration
+                        </small></a></p>
+            
+            
+             
+                     <p><img src="./Motorola Remote Software Download_files/bullet.gif" width="12" height="9">
+                        <a href="http://rsd-jboss-dev.mot.com/cs/servlets/RSDInformationServlet?action=motoserviceClientDeletion&amp;isLogged=true" class="c20">
+                        <small>Motoservice Client Delete
+                        </small></a></p>
+            
+			
+			
+                     <p><img src="./Motorola Remote Software Download_files/bullet.gif" width="12" height="9">
+                       <a href="http://rsd-jboss-dev.mot.com/cs/jsp/pcClient/initialPageMSConfigRegistration.jsp" class="c20">
+                        <small>MS Config File Registration
+                        </small></a></p>
+            
+              
+            <!-- Added by SithaRam For New CR's(RSDSRT-1462) - 10th Sep 2015 Requirement(APK Registration)	--start -->
+             
+                     <p><img src="./Motorola Remote Software Download_files/bullet.gif" width="12" height="9">
+                        <a href="http://rsd-jboss-dev.mot.com/cs/servlets/RSDInformationServlet?action=msConfigAPKRegistration&amp;isLogged=true" class="c20">
+                        <small>APK Registration
+                        </small></a></p>
+            
+            <!-- Added by SithaRam For New CR's(RSDSRT-1462) - 10th Sep 2015 Requirement(APK Registration)	--end -->
+
+			<!-- Added by Marcellus Brindha - June 2016 Requirement(MLST Client Registration and MLST Client Deletion) --Start -->
+			
+					<p>
+						<img src="./Motorola Remote Software Download_files/bullet.gif" width="12" height="9">
+						<a href="http://rsd-jboss-dev.mot.com/cs/servlets/RSDInformationServlet?action=MLSTRegistration&amp;isLogged=true" class="c20"> 
+							<small>
+								MLST Client Registration
+							</small>
+						</a>
+					</p> 
+			
+			
+			
+						<p>
+							<img src="./Motorola Remote Software Download_files/bullet.gif" width="12" height="9">
+							<a href="http://rsd-jboss-dev.mot.com/cs/servlets/RSDInformationServlet?action=MLSTClientDeletion&amp;isLogged=true" class="c20"> 
+								<small>
+									MLST Client Delete
+								</small>
+							</a>
+						</p>
+			
+            <!-- Added by Marcellus Brindha - June 2016 Requirement(MLST Client Registration and MLST Client Deletion) -End -->	
+            
+            <!-- Added by SithaRam For New CR's - 1st JUNE 2016 Requirement(MLST Driver Registration) - start -->
+            
+                     <p><img src="./Motorola Remote Software Download_files/bullet.gif" width="12" height="9">
+                        <a href="http://rsd-jboss-dev.mot.com/cs/servlets/RSDInformationServlet?action=mlstDriverRegistration&amp;isLogged=true" class="c20">
+                        <small>MLST Files Registration
+                        </small></a></p>
+            
+            <!-- Added by SithaRam For New CR's - 1st JUNE 2016 Requirement(MLST Driver Registration) - end -->
+            
+            
+          
+           
+            
+
+			
+            
+            
+           
+           <!-- Commented by SithaRam 07th Sep 2015 Requirement start -->
+			
+            <!-- Commented by SithaRam 07th Sep 2015 Requirement end -->
+            
+			<!-- Commented by SithaRam 07th Sep 2015 Requirement start -->
+			
+			
+			 <!-- Commented by SithaRam 07th Sep 2015 Requirement end -->
+                  </td>
+               </tr>
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+ 		 
+            
+                  
+
+          
+                
+                   
+                          
+         
+            
+            
+            
+          
+            
+
+				
+								
+					
+				
+
+ 
+
+
+
+            
+
+
+
+            
+
+            
+
+            
+          
+      
+      
+      
+            <!-- Added by Nagasai for Motoconnect Consumer Configuration sub menu start -->
+            
+            
+             
+
+            
+
+            <!-- Added by Nagasai for Motoconnect Consumer Configuration sub menu end -->
+  
+            <!-- Added by Nagasai for Motoconnect Consumer Configuration sub menu start -->
+            
+            
+             
+
+            
+
+            <!-- Added by Nagasai for Motoconnect Consumer Configuration sub menu end -->
+            
+
+            <!-- Added by Padma for Software Phone Matrix Update sub menu start -->
+
+            
+          
+            <!-- Added by Padma for Software Phone Matrix Update sub menu end -->
+            
+            <!-- Added by Ilayaraja for MS Config sub menu Start -->
+            
+          
+          <!-- Added by Ilayaraja for MS Config sub menu End -->
+             
+			 
+           
+               <tr>
+                  <td class="c20">
+                     <p><img src="./Motorola Remote Software Download_files/bullet.gif" width="12" height="9">
+                        <a href="http://rsd-jboss-dev.mot.com/cs/servlets/UserServlet?action=home&amp;isLogged=true" class="c20"> 
+                     <!--  <a href="/cs/servlets/UserServlet?action=home&isLogged=true&UPDATE_USER_TYPE=RSD User" class="c20"> -->
+                         <small>Home
+                         </small></a></p>
+				
+				
+				<p><img src="./Motorola Remote Software Download_files/bullet.gif" width="12" height="9">
+                      
+                    <a href="http://rsd-jboss-dev.mot.com/cs/jsp/main/fastt/main_menu.jsp" class="c20">
+                         <small>FASTT
+                         </small></a></p>
+				
+<!--            // Logout -->
+                     <p><img src="./Motorola Remote Software Download_files/bullet.gif" width="12" height="9">
+				 
+                        <a href="http://rsd-jboss-dev.mot.com/cs/servlets/UserServlet?action=exitRSDConfirmation&amp;isLogged=true" class="c20">
+				 
+                        <small>Exit RSD
+                        </small></a></p>
+                  </td>
+               </tr>
+
+         </tbody></table>
+      </td>
+   </tr>
+
+</tbody></table>
+
+         </td>
+
+         <td width="75%" valign="top">
+            
+
+
+
+
+
+<!-- treat errors -->
+
+
+
+
+
+         
+            <table width="100%" height="232" border="0" cellpadding="2">
+               <tbody><tr>
+                  <td height="188">
+                  
+                     <h4 align="center">MLST Driver Registration Success.</h4>
+                  </td>
+               </tr>
+            </tbody></table>
+         </td>
+      </tr>
+   </tbody></table>
+
+
+
+
+
+
+
+
+
+
+<table width="100%">
+   <tbody><tr>
+      
+      </tr></tbody></table><table width="100%" border="0">
+         <tbody><tr>
+            <td height="99" align="center">
+   	           <hr>
+	              <p class="c20">
+	                 © 2016 Motorola Mobility LLC. All Rights Reserved.<br>
+                  </p>
+            </td>
+         </tr>
+      </tbody></table>
+   
+
+
+</body></html>
